@@ -2,7 +2,7 @@
 
 namespace Squid\EventDispatcher;
 
-use InvalidArgumentException;
+use Squid\EventDispatcher\Exception\InvalidArgumentException;
 
 class EventDispatcher implements EventDispatcherInterface
 {
