@@ -1,6 +1,6 @@
 <?php
 
-namespace Squid\EventDispatcherTest\TestAsset;
+namespace Squid\Test\EventDispatcher\TestAsset;
 
 class TraceableEventListener
 {

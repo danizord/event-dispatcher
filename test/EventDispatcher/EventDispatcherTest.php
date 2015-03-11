@@ -1,13 +1,13 @@
 <?php
 
-namespace Squid\EventDispatcherTest;
+namespace Squid\Test\EventDispatcher;
 
 use PHPUnit_Framework_TestCase as TestCase;
 use Squid\EventDispatcher\EventDispatcher;
 use Squid\EventDispatcher\Exception\InvalidArgumentException;
-use Squid\EventDispatcherTest\TestAsset\BarEvent;
-use Squid\EventDispatcherTest\TestAsset\FooEvent;
-use Squid\EventDispatcherTest\TestAsset\TraceableEventListener;
+use Squid\Test\EventDispatcher\TestAsset\BarEvent;
+use Squid\Test\EventDispatcher\TestAsset\FooEvent;
+use Squid\Test\EventDispatcher\TestAsset\TraceableEventListener;
 
 class EventDispatcherTest extends TestCase
 {

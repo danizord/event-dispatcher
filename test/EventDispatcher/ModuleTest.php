@@ -1,6 +1,6 @@
 <?php
 
-namespace Squid\EventDispatcherTest;
+namespace Squid\Test\EventDispatcher;
 
 use PHPUnit_Framework_TestCase as TestCase;
 use Squid\EventDispatcher\Module;
