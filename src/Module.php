@@ -2,6 +2,7 @@
 
 namespace Squid\EventDispatcher;
 
+use Squid\EventDispatcher\Factory\EventDispatcherFactory;
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 
 class Module implements ConfigProviderInterface
@@ -13,8 +14,8 @@ class Module implements ConfigProviderInterface
     {
         return [
             'service_manager' => [
-                'invokables' => [
-                    EventDispatcher::class => EventDispatcher::class,
+                'factories' => [
+                    EventDispatcher::class => EventDispatcherFactory::class,
                 ],
             ],
         ];
