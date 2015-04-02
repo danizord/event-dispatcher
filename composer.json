@@ -1,0 +1,36 @@
+{
+    "name": "squidfacil/event-dispatcher",
+    "require": {
+        "zendframework/zend-servicemanager": "~2.3",
+        "zendframework/zend-modulemanager": "~2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4",
+        "squizlabs/php_codesniffer": "2.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Gimenes",
+            "email": "daniel@danielgimenes.com.br"
+        },
+        {
+            "name": "Fabio Carneiro",
+            "email": "fahecs@gmail.com"
+        },
+        {
+            "name": "Gabriel Schmitt",
+            "email": "gabrielsch@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Squid\\EventDispatcher\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Squid\\Test\\EventDispatcher\\": "test/EventDispatcher"
+        }
+    }
+}
